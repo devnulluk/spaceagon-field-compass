@@ -1,0 +1,18 @@
+[app]
+name = "Field Compass"
+category = "Apps"
+wifi_preference = false
+
+[entry]
+class = "FieldCompassApp"
+
+[metadata]
+author = "Mark Brown"
+license = "MIT"
+url = "https://github.com/devnulluk/spaceagon-field-compass"
+description = "Experimental Spaceagon compass with teal/gold field lines, magnetic calibration, relative gyro fallback and an animated demo. Hardware validation pending."
+version = "0.1.0"
+
+[[metadata.capabilities]]
+required = false
+feature = { type = "2026 Frontboard" }

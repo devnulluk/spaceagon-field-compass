@@ -1,0 +1,13 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
+README.md export-ignore
+dev export-ignore
+tools export-ignore
+tests export-ignore
+install.ps1 export-ignore
+preview.html export-ignore
+preview.png export-ignore
+preview.svg export-ignore
+release export-ignore
+metadata.json export-ignore
