@@ -10,7 +10,7 @@ class = "FieldCompassApp"
 author = "Mark Brown"
 license = "MIT"
 url = "https://github.com/devnulluk/spaceagon-field-compass"
-description = "Experimental Spaceagon compass with teal/gold field lines, magnetic calibration, relative gyro fallback and an animated demo. Hardware validation pending."
+description = "Experimental Spaceagon compass: teal/gold field lines, magnetic calibration, relative gyro and demo. Hardware testing pending."
 version = "0.1.0"
 
 [[metadata.capabilities]]

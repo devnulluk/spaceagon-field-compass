@@ -29,6 +29,8 @@ If `/apps` is absent, create it first with `py -m mpremote connect COM5 fs mkdir
 
 ## Badge App Store publication
 
+After indexing, install **Field Compass** from the badge's App Store or enter app code **02402212**. The permanent listing is [Field Compass in the badge App Store](https://apps.badge.emfcamp.org/apps/02402212/).
+
 Public source and releases: [devnulluk/spaceagon-field-compass](https://github.com/devnulluk/spaceagon-field-compass). The repository uses the `tildagon-app` topic for discovery by the [badge App Store](https://apps.badge.emfcamp.org/), following the [official publishing guide](https://tildagon.badge.emfcamp.org/tildagon-apps/publish/).
 
 The release source archive contains just the four native Python modules, `tildagon.toml` and the licence. `.gitattributes` excludes the desktop preview, tests, tools, installer and development metadata from the badge download. The separate installation ZIP includes the preview and USB installation instructions. In a source checkout, development metadata lives in `dev/metadata.json`.
